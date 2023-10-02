@@ -55,7 +55,7 @@ var lion = new Lion("Lion");
 var monkey = new Monkey("Monkey");
 var snake = new Snake("Snake");
 // Putting the animal object references into an array
-arjungleAnimals = [tiger, lion, monkey, snake];
+var jungleAnimals = [tiger, lion, monkey, snake];
 // Looping over the array and calling the makeSound mel
 jungleAnimals.forEach(function(animal) {
 animal.makeSound();
